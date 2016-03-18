@@ -1,6 +1,6 @@
 var invocation = new XMLHttpRequest();
 var url = 'https://seacloud.cc/api2/auth-token/';
-function getSeafileApiRequest() {
+function getSeafileApiToken() {
     if(invocation) {    
         invocation.open('POST', url, true);
         invocation.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
